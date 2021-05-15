@@ -5,20 +5,17 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version 2.5.1
 
-* System dependencies
+* Rails version 5.2.4
 
-* Configuration
+*  install dependeny <br>
+   `bundle install`
+   `rails db:migrate`
+   `rails s`
 
-* Database creation
+### screenshots
+![Screenshot](/screenshot/create_user.png) <br>
+![Screenshot](/screenshot/login_api.png) <br>
+![Screenshot](/screenshot/get_users.png) <br>
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
