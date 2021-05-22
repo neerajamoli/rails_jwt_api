@@ -1,4 +1,7 @@
 class ApplicationController < ActionController::API
+    include Response
+    include ExceptionHandler
+   
     def not_found
         render json: { error: 'not_found' }
     end
